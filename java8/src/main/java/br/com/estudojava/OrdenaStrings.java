@@ -15,10 +15,10 @@ public class OrdenaStrings {
 
 //    palavras.sort((s1, s2) -> Integer.compare(s1.length(), s2.length()));
 //    palavras.sort(Comparator.comparing(s -> s.length()));
-    palavras.sort(Comparator.comparing(String::length));
+//    palavras.sort(Comparator.comparing(String::length));
 
 //    como recebe somente um parametro, podemos simplificar a lambda assim
       palavras.forEach(s -> System.out.println(s));
-    palavras.forEach(System.out::println);
+      palavras.forEach(System.out::println);
   }
 }
